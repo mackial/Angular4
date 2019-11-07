@@ -1,1 +1,17 @@
-<h2>Detalle</h2>
+<div class="card card-body bg-lith">
+    <div>Regresar a: <a routerLink="/lugares">Lugares</a></div>
+    
+</div>
+<div class="container">
+    <h1>{{lugar.nombre}}</h1>
+    <hr>
+    <small>{{lugar.distancia}} km</small>
+    <br>
+    <div class="card card-body bg-lith">
+        <p>
+        {{lugar.description}}
+        </p>
+        <b>Plan: {{lugar.plan}}</b>
+    </div>
+    
+</div>
